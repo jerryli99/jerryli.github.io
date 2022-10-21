@@ -10,8 +10,7 @@
 	<body>
 		<script src="js/three.js"></script>
 		<script>
-			let data = require('.data/leetcode_75questions.json');
-			console.log(data);
+			fetch('./data/leetcode_75questions.json').then(results => results.json()).then(console.log());
 			
 		</script>
 	</body>
