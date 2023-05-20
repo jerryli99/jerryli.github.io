@@ -1,2 +1,2 @@
-# jerryli99.github.io
 README
+just a personal website
